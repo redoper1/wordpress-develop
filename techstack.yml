@@ -1,0 +1,1175 @@
+repo_name: redoper1/wordpress-develop
+report_id: 8c954f876a484dc0c78cb05df7aa3fde
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T20:05:23+00:00'
+requested_by: SergeyBiryukov
+provider: github
+branch: master
+detected_tools_count: 86
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop
+  detection_source: Repo Metadata
+- name: Hack
+  description: A programming language for HHVM that interoperates seamlessly with
+    PHP
+  website_url: http://hacklang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1208/download.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/redoper1/wordpress-develop
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/redoper1/wordpress-develop
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/tools/local-env/mysql-init.sql
+  detection_source: tools/local-env/mysql-init.sql
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2019-08-05 07:09:14.000000000 Z
+- name: ceph
+  description: A free-software storage platform
+  website_url: http://ceph.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: File Storage
+  image_url: https://img.stackshare.io/service/1818/cephglyph_copy_400x400.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2019-08-12 09:20:06.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-04-15 14:41:38.000000000 Z
+- name: Backbone.js
+  description: Give your JS App some Backbone with Models, Views, Collections, and
+    Events
+  website_url: http://backbonejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/1017/Screen_Shot_2012-04-28_at_8.52.15_PM.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Adam Silverstein
+  last_updated_on: 2019-09-17 17:18:32.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentytwenty/package.json
+  detection_source: src/wp-content/themes/twentytwenty/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2019-09-23 20:14:50.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2020-10-15 23:06:49.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andrew Nacin
+  last_updated_on: 2013-08-07 05:25:25.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-03-18 17:51:52.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2019-08-12 09:20:06.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/.github/codecov.yml
+  detection_source: ".github/codecov.yml"
+  last_updated_by: Aaron Jorbin
+  last_updated_on: 2021-03-01 16:56:08.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2020-10-28 23:15:07.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentytwentyone/package.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2020-10-20 01:12:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/.github/workflows/coding-standards.yml
+  detection_source: ".github/workflows/coding-standards.yml"
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-03-03 20:29:04.000000000 Z
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 1.4.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: LiveReload
+  description: CSS edits and image changes apply live. CoffeeScript, SASS, LESS and
+    others just work.
+  website_url: http://livereload.com
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Live Reloading
+  image_url: https://img.stackshare.io/service/2601/128.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-01-06 14:51:25.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2019-08-12 09:20:06.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 7.5.20
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2018-04-05 07:04:08.000000000 Z
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2019-08-12 09:20:06.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2020-06-29 11:48:53.000000000 Z
+- name: QUnit
+  description: A JavaScript Unit Testing framework
+  website_url: http://qunitjs.com/
+  version: 2.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Andrew Nacin
+  last_updated_on: 2013-08-07 05:25:25.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 10.0.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 13.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-06 14:05:30.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.46.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-20 20:00:16.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentynineteen/package.json
+  detection_source: src/wp-content/themes/twentynineteen/package.json
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2018-12-14 02:32:33.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2019-08-12 09:20:06.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jake Spurlock
+  last_updated_on: 2020-07-11 00:34:59.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-05-07 11:46:32.000000000 Z
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-05-07 11:46:32.000000000 Z
+- name: WordPress
+  description: A semantic personal publishing platform with a focus on aesthetics,
+    web standards, and usability.
+  website_url: http://wordpress.org
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/250/logo.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2020-10-28 23:15:07.000000000 Z
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/redoper1/wordpress-develop
+  detection_source: Repo Metadata
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2020-07-07 16:06:43.000000000 Z
+- name: cssnano
+  description: A modular minifier, based on the PostCSS ecosystem. Created by @ben_eb.
+  website_url: http://cssnano.co/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-20 20:00:16.000000000 Z
+- name: hoverIntent
+  description: It attempts to determine the user's intent
+  website_url: https://briancherne.github.io/jquery-hoverIntent/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/48381/default_9a7638f20a977bafaaa7a76513c1959970b3af97.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-03-10 15:23:06.000000000 Z
+- name: "@babel/polyfill"
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/@babel/polyfill
+  version: 7.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-03-30 14:14:57.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2020-07-07 16:06:43.000000000 Z
+- name: chokidar-cli
+  description: Ultra-fast cross-platform command line utility to watch file system
+    changes
+  package_url: https://www.npmjs.com/chokidar-cli
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16834/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentynineteen/package-lock.json
+  detection_source: src/wp-content/themes/twentynineteen/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-01-29 21:10:16.000000000 Z
+- name: clipboard
+  description: Modern copy to clipboard. No Flash. Just 2kb
+  package_url: https://www.npmjs.com/clipboard
+  version: 2.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-05-07 11:46:32.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentytwenty/package-lock.json
+  detection_source: src/wp-content/themes/twentytwenty/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-06 14:05:30.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-05-07 11:46:32.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 4.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-20 20:00:16.000000000 Z
+- name: dotenv-expand
+  description: Expand environment variables using dotenv
+  package_url: https://www.npmjs.com/dotenv-expand
+  version: 5.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16514/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-04-15 14:41:38.000000000 Z
+- name: grunt-banner
+  description: Adds a simple banner to files
+  package_url: https://www.npmjs.com/grunt-banner
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17430/default_f52a9ea80d1a46080182faf142d844b81ca11aa6.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-cssmin
+  description: Minify CSS
+  package_url: https://www.npmjs.com/grunt-contrib-cssmin
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16324/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-imagemin
+  description: Minify images
+  package_url: https://www.npmjs.com/grunt-contrib-imagemin
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17791/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-qunit
+  description: Run QUnit unit tests in a headless Chrome instance
+  package_url: https://www.npmjs.com/grunt-contrib-qunit
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16756/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-jsdoc
+  description: Integrates jsdoc3 generation into your Grunt build
+  package_url: https://www.npmjs.com/grunt-jsdoc
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16701/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-postcss
+  description: Apply several post-processors to your CSS using PostCSS
+  package_url: https://www.npmjs.com/grunt-postcss
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17951/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-sass
+  description: Compile Sass to CSS using node-sass
+  package_url: https://www.npmjs.com/grunt-sass
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16916/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: grunt-webpack
+  description: Use webpack with grunt
+  package_url: https://www.npmjs.com/grunt-webpack
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16985/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: ink-docstrap
+  description: "[![NPM]"
+  package_url: https://www.npmjs.com/ink-docstrap
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16768/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Aaron Jorbin
+  last_updated_on: 2019-10-05 19:47:04.000000000 Z
+- name: matchdep
+  description: Use micromatch to filter npm module dependencies by name
+  package_url: https://www.npmjs.com/matchdep
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16416/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Aaron Jorbin
+  last_updated_on: 2020-07-31 18:33:23.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2020-10-20 01:12:25.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 1.2.6
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-05-07 11:46:32.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentynineteen/package-lock.json
+  detection_source: src/wp-content/themes/twentynineteen/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-01-29 21:10:16.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentynineteen/package-lock.json
+  detection_source: src/wp-content/themes/twentynineteen/package.json
+  last_updated_by: Gary Pendergast
+  last_updated_on: 2018-12-14 02:32:33.000000000 Z
+- name: postcss-calc
+  description: PostCSS plugin to reduce calc
+  package_url: https://www.npmjs.com/postcss-calc
+  version: 7.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17260/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-06 14:05:30.000000000 Z
+- name: postcss-cli
+  description: CLI for PostCSS
+  package_url: https://www.npmjs.com/postcss-cli
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentynineteen/package-lock.json
+  detection_source: src/wp-content/themes/twentynineteen/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-01-29 21:10:16.000000000 Z
+- name: postcss-css-variables
+  description: PostCSS plugin to transform CSS Custom Properties
+  package_url: https://www.npmjs.com/postcss-css-variables
+  version: 0.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18606/default_f2cdfd90078f77b9c3f176a794cf9b84b4f1a3a2.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentytwentyone/package-lock.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-06 14:05:30.000000000 Z
+- name: postcss-custom-media
+  description: Use Custom Media Queries in CSS
+  package_url: https://www.npmjs.com/postcss-custom-media
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17539/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentytwentyone/package-lock.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-06 14:05:30.000000000 Z
+- name: postcss-nested
+  description: PostCSS plugin to unwrap nested rules like how Sass does it
+  package_url: https://www.npmjs.com/postcss-nested
+  version: 5.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16575/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-content/themes/twentytwentyone/package-lock.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-06 14:05:30.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2020-10-15 23:06:49.000000000 Z
+- name: source-map-loader
+  description: Extracts inlined source map and offers it to webpack
+  package_url: https://www.npmjs.com/source-map-loader
+  version: 0.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16190/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-01-06 14:51:25.000000000 Z
+- name: stylelint-config-recommended-scss
+  description: Recommended shareable SCSS config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-recommended-scss
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18141/default_3e053d4b47b1198323e0d3094fad02237b4d3c17.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: src/wp-content/themes/twentytwentyone/package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-04-06 14:05:30.000000000 Z
+- name: uglify-js
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/uglify-js
+  version: 2.8.29
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: uglifyjs-webpack-plugin
+  description: UglifyJS plugin for webpack
+  package_url: https://www.npmjs.com/uglifyjs-webpack-plugin
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15953/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-05-11 20:10:27.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-01-06 14:51:25.000000000 Z
+- name: wait-on
+  description: Wait-on is a cross platform command line utility and Node.js API which
+    will wait for files
+  package_url: https://www.npmjs.com/wait-on
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17821/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2021-03-18 17:47:01.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-05-07 11:46:32.000000000 Z
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg ZiÃ³Å‚kowski
+  last_updated_on: 2021-05-07 11:46:32.000000000 Z
+- name: dealerdirect/phpcodesniffer-composer-installer
+  description: PHP_CodeSniffer Standards Composer Installer Plugin
+  package_url: https://packagist.org/dealerdirect/phpcodesniffer-composer-installer
+  version: 0.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Sergey Biryukov
+  last_updated_on: 2020-11-12 17:23:44.000000000 Z
+- name: paragonie/random_compat
+  description: PHP 5.x polyfill for random_bytes
+  package_url: https://packagist.org/paragonie/random_compat
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/src/wp-includes/sodium_compat/composer.json
+  detection_source: src/wp-includes/sodium_compat/composer.json
+  last_updated_by: Alex Shiels
+  last_updated_on: 2019-03-21 04:55:21.000000000 Z
+- name: phpcompatibility/phpcompatibility-wp
+  description: A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility
+    issues in projects
+  package_url: https://packagist.org/phpcompatibility/phpcompatibility-wp
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Sergey Biryukov
+  last_updated_on: 2020-11-12 17:23:44.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 7.5.20
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Sergey Biryukov
+  last_updated_on: 2020-11-12 17:23:44.000000000 Z
+- name: wp-coding-standards/wpcs
+  description: PHP_CodeSniffer rules
+  package_url: https://packagist.org/wp-coding-standards/wpcs
+  version: 2.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/redoper1/wordpress-develop/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Jonathan Desrosiers
+  last_updated_on: 2020-06-08 20:09:53.000000000 Z
